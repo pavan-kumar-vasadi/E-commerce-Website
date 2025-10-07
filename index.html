@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Accessories Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.development.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.development.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.26.5/babel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="#" class="logo">Accessories</a>
+    <ul>
+      <li><a href="#navbar"><i class="fa-solid fa-house"></i>Home</a></li>
+      <li><a href="#login"><i class="fa-solid fa-user"></i>Login</a></li>
+      <li><a href="#products"><i class="fa-solid fa-truck"></i>Products</a></li>
+      <li><a href="#cart"><i class="fa-solid fa-cart-shopping"></i>Cart</a></li>
+      <li><a href="#help"><i class="fa-solid fa-phone"></i>Help</a></li>
+    </ul>
+  </nav>
+
+  <h1>Trendy Accessories</h1>
+  <div id="root"></div>
+  <script type="text/babel" src="index.jsx" data-presets="react"></script>
+
+  <h2>Brended Accessories For Men</h2>
+  <div id="item-list">
+    <div class="item">
+      <img src="https://m.media-amazon.com/images/I/7138OS3wvyL._SL1500_.jpg">
+      <p>Noise Newly Launched Halo 2 Smart Watch 1st Ever Functional Rotating Dial (Axe-Cut Bezel), 1.43" AMOLED, Stainless Steel Build, Custom Transition Effects, BT Calling, Health Suite (Gold Blue)</p>
+      <h3><a href="#">₹4,449</a></h3>
+    </div>
+    <div class="item">
+      <img src="https://img4.dhresource.com/webp/m/0x0/f3/albu/jc/o/06/89c3b539-7757-49ab-aaf5-f63a647e7030.jpg">
+      <p>LensKandy Zero Power Computer Glasses – Anti-Glare & Bluecut Wayfarer Eyewear for Men & Women – UV Protection, Eye Strain Relief,Lightweight & Blocks Harmful Rays</p>
+      <h3><a href="#">₹934</a></h3>
+    </div>
+    <div class="item">
+      <img src="https://m.media-amazon.com/images/I/61Ym3PemtOL._SL1500_.jpg">
+      <p>Boldfit Running Shoes For Men Jogging Shoes For Men Sports Shoes For Man Stylish Anti Slip Running Shoes For Man With Soft Sole Extra Grip Walking Shoes For Men For Gym, Training Shoes Beigewhite UK09</p>
+      <h3><a href="#">₹1,399</a></h3>
+    </div>
+    <div class="item">
+      <img src="https://m.media-amazon.com/images/I/61TfRXe5+wL._SY625_.jpg">
+      <p>THE MEN THING DRAGON GOT (87 gram) - 12" mm Pure Copper Bracelet with Hook Buckle for Men & Boys (9" inch)</p>
+      <h3><a href="#">₹339</a></h3>
+    </div>
+    <div class="item">
+      <img src="https://m.media-amazon.com/images/I/71BbEtjHWrL._SY695_.jpg">
+      <p>Fashion Frill Silver Chain For Men Anti Turnish Stainless Steel Vintage Black Tribal Sword Pendant Chain For Men Boys Girls Love Gifts Mens Jewellery</p>
+      <h3><a href="#">₹239</a></h3>
+    </div>
+    <div class="item">
+      <img src="https://m.media-amazon.com/images/I/31mdiUEGi0L._SY625_.jpg">
+      <p>Raajraani Pure 925 Sterling Silver Cufflink for Men | Dark Knight 925 Sterling Silver Cufflinks | Rhodium Finish, Black Onyx | Gift for Him (10.4 gms)</p>
+      <h3><a href="#">₹5,903</a></h3>
+    </div>
+    <div class="item">
+      <img src="https://m.media-amazon.com/images/I/612TIYB295S._SX679_.jpg">
+      <p>Introducing a unique sliding mechanism. No pushing. No pulling. Just slide the belt into the buckle and adjust for a superbly comfortable fit. This buckle simply auto-locks the belt. To release, just gently push the lever.</p>
+      <h3><a href="#">₹695</a></h3>
+    </div>
+    <div class="item">
+      <img src="https://m.media-amazon.com/images/I/517vybV4QYL._SY741_.jpg">
+      <p>Craft Bazar 35 Liter Backbencher Printed Backpack for School, College & Travel | Stylish Laptop Bag with Spacious Compartments & Padded Straps for Boys & Girls</p>
+      <h3><a href="#">₹535</a></h3>
+    </div>
+    <div class="item">
+      <img src="https://m.media-amazon.com/images/I/41xGFO47aIL._SY300_SX300_.jpg">
+      <p>The Bling Stores Presents Travel The World Leather with Unique Charms | Customize Passport Cover Combo with Wallet and Key Chain Holder for Men and Women | Rakhi Gift Hamper (Brown)</p>
+      <h3><a href="#">₹799</a></h3>
+    </div>
+    <div class="item">
+      <img src="https://m.media-amazon.com/images/I/61HeiN8rmlL.SY695.jpg">
+      <p>MEENAZ Leather Bracelet for Men Black man boys Magnetic Clasp multistrand Mens Beads Gold Bracelet Bracelets for Man Stylish Combo Silver Stainless Steel Birthday Gift Anniversary Husband</p>
+      <h3><a href="#">₹332</a></h3>
+    </div>
+  </div>
+
+  <button><a href="#" class="btn1">See More</a></button>
+
+  <section id="login">
+    <div class="login-container">
+      <h2>Login</h2>
+      <form>
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter username" required>
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter password" required>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <p class="signup-text">Don’t have an account? <a href="#">Sign Up</a></p>
+      </form>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="item-title1">
+      <h6>Quality Accessories For Men</h6>
+    </div>
+
+    <section id="shoes">
+      <h5>SHOES</h5>
+      <div id="item-list">
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/51FduCdj-gL.SX695.jpg">
+          <p>Kraasa Men's Slip On Fashion Chelsea Boots | High Tops</p>
+          <h3><a href="#">₹999</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/515L74SbmvL.SY695.jpg">
+          <p>U.S. POLO ASSN. Mens Rojas 2.0-Parent Sneaker</p>
+          <h3><a href="#">₹2,051</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/41HmrmvUMeL.SY625.jpg">
+          <p>Bugatti Sula Cognac Leather Mens Derby Shoes - UK 10</p>
+          <h3><a href="#">₹6,293</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/71JQ-iZYgeL.SY695.jpg">
+          <p>Puma Men ATTACANTO FG/AG Football Shoe</p>
+          <h3><a href="#">₹2,859</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/81xcLHSFSCL.SY695.jpg">
+          <p>Reebok Men's Sports Shoe - Advent TR - Gym Shoe ideal</p>
+          <h3><a href="#">₹1,539</a></h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="chains">
+      <h5>CHAINS</h5>
+      <div id="item-list">
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/612xOm1X6LL.SY695.jpg">
+          <p>Fashion Frill Men's Jewellery Black Silver Chain For Men Boys Geometric Stainless Steel Black Silver Locket Pendant Necklace Chain For Men Boys Anniversary Gift For Husband Gift Chains</p>
+          <h3><a href="#">₹249</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/71HX57SvTxL.SY695.jpg">
+          <p>Fashion Frill Silver Chain Pendant For Men Round Pendant Cross Compass Necklace Chain For Men Boys Men's Jewellery Pendant Necklace Accessories</p>
+          <h3><a href="#">₹189</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/51xs8AzO5mL.SY695.jpg">
+          <p>THE MEN THING Pendant for Men - Alloy Pendant with Pure Stainless Steel 24inch Round Box Chain Collection for Men & Boy</p>
+          <h3><a href="#"> ₹299</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/51Tpn3N--vL.SY695.jpg">
+          <p>THE MEN THING BLACK GUARDIAN SNAKE - Pure Titanium Steel Pendant with 24inch Round Box Chain for Men & Boys</p>
+          <h3><a href="#">₹1,249</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/61XF4hukJJL.SY695.jpg">
+          <p>Stainless Steel Chain for Man, Neck Chain for Men, Men Chains for Neck, Chains for Man - Black Spade A Necklace for Man, Premium Neck Chain Accessory with Gift Box, Timeless Jewelry</p>
+          <h3><a href="#">₹199</a></h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="sunglasses">
+      <h5>SUNGLASSES</h5>
+      <div id="item-list">
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/41KML+1HubL.SX679.jpg">
+          <p>VINCENT CHASE EYEWEAR By Lenskart | Full Rim Round Sunglasses| Polarized And 100% UV Protected</p>
+          <h3><a href="#"> ₹549</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/41yqM8NP0qL.SX679.jpg">
+          <p>Dervin UV Protected Square Rimless Sunglasses for Men and Women</p>
+          <h3><a href="#">₹349</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/51uDibgOcSL.SX679.jpg">
+          <p>RAY-BAN Unisex Gradient Lens Rectangle Sunglasses - 0RB3760I002/4L59</p>
+          <h3><a href="#">₹6,679</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/61y4UCBJc8L.SX679.jpg">
+          <p>Dervin Retro Rimless Diamond Cut Rectangular sunglasses for Men and Women</p>
+          <h3><a href="#">₹349</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/41TGcxLh9eL.SX679.jpg">
+          <p>Dervin UV Protected Retro Rectangular Rimless Sunglasses for Men and Women</p>
+          <h3><a href="#">₹349</a></h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="bag">
+      <h5>BAGS</h5>
+      <div id="item-list">
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/810s53kR8tL.SY879.jpg">
+          <p>Skybags Casual Standard Backpack 28L, 2 Main Compartments, Bottle Pocket, Front Pocket, Padded Shoulder Straps | Black | Brat</p>
+          <h3><a href="#">₹446</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/61iZKFsiVZL.SX679.jpg">
+          <p>TS WITH TECHSUN College Laptop Backpack for Women & Teens with Zipper Pouch | School Bag for Girls 13-14 Years | 18 Inch</p>
+          <h3><a href="#">₹1,799</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/41C1yDe7HBL.SY300_SX300.jpg">
+          <p>Wildcraft Nylon 44 Ltrs Casual Backpack (11629-Wolf_Black)</p>
+          <h3><a href="#">₹1,299</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/81GfuBB11IL.SL1500.jpg">
+          <p>Gear Alpine 19"/39L Large Water Resistant School Bag/College Bag/Casual 4 Compartment</p>
+          <h3><a href="#">₹1,299</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/6175Nru3TXL.SX679.jpg">
+          <p>ADISA Casual Backpack School College Bag Pack (BP057)</p>
+          <h3><a href="#">₹349</a></h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="watch">
+      <h5>WATCHES</h5>
+      <div id="item-list">
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/81OyXsHn6ZL.SX679.jpg">
+          <p>OLEVS Original Men's Diamond Watch Analog Quartz Stainless Steel Calendar Business Dress Watch with Luminous Waterproof Casual Wristwatch</p>
+          <h3><a href="#">₹3,229</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/71Kx6rgmlRS.SX679.jpg">
+          <p>TIMEX Classics Analog Watch for Men with Round Dial & Water Resistant Man's Wrist Watches</p>
+          <h3><a href="#">₹1,142</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/81RSrpHOiaL.SL1500.jpg">
+          <p>Fastrack Limitless FS2+ Smart Watch, 2.01" UltraVU Display, Functional Crown, SingleSync BT Calling, 110+ Sports Modes, 200+ Smartwatch Faces, Upto 7</p>
+          <h3><a href="#">₹1,649</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/71oBj3wFdML.SL1500.jpg">
+          <p>Fastrack Analog Digital Black Dial Green Colour Plastic Strap Unisex Watch - NT38076PP02W</p>
+          <h3><a href="#">₹1,894</a></h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/71VFo6L8o0L.AC_CR0%2C0%2C0%2C0_SX615_SY462.jpg">
+          <p>FEICE Wathes for Men Digital LED Analog Quartz Wristwatch Business Men’s Watch Multifunction Square Chronograph 24H Calendar Leather Band Unique FK030 Watch Large Dial Watches</p>
+          <h3><a href="#">₹5,649</a></h3>
+        </div>
+      </div>
+    </section>
+  </section>
+  <section id="help">
+  <div class="footer">
+    <div class="up">
+    <a href="" class="text2">Back to Top</a>
+    </div>
+    <div class="information-tag">
+    <b>Get to Know Us</b>
+    <a href="" class="list">
+    <h6>About Products</h6>
+    <h6>Careers</h6>
+    <h6>Press Releases</h6>
+    </a>
+    </div>
+    <div class="information-tag">
+    <b>Connect with Us</b>
+    <a href="" class="list">
+    <h6>Twitter</h6>
+    <h6>Facebook</h6>
+    <h6>Instagram</h6>
+    </a>
+    </div>
+    <div class="information-tag">
+    <b>Our Policies</b>
+    <a href="" class="list">
+    <h6>Privacy Policy</h6>
+    <h6>Terms of Use</h6>
+    <h6>Security</h6>
+    </a>
+    </div>
+    <div class="information-tag">
+    <b>Customer Support</b>
+    <a href="" class="list">
+    <h6>Your Account</h6>
+    <h6>Returns & Refunds</h6>
+    <h6>Help</h6>
+    </a>
+    </div>
+  </div>
+  </section>
+</body>
+</html>
